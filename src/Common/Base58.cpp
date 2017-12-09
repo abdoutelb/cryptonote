@@ -84,7 +84,7 @@ namespace Tools
         uint64_t res = 0;
         switch (9 - size)
         {
-        case 1: res <<= 8; res |= *data++;
+        case 1:            res |= *data++;
         case 2: res <<= 8; res |= *data++;
         case 3: res <<= 8; res |= *data++;
         case 4: res <<= 8; res |= *data++;
